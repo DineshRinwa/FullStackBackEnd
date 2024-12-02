@@ -34,6 +34,7 @@
   <h1>API Routes</h1>
 
   <h2>User Authentication Routes (Route/registerRoute.js)</h2>
+  
   <ul>
     <li><strong>POST /api/auth/signup</strong>: 
       Registers a new user with hashed passwords. 
@@ -49,7 +50,7 @@
         <li>Response: JWT token if login is successful</li>
       </ul>
     </li>
-  </ul>
+  </ul> <br>
 
 
   <h2>Product Management Routes (Route/productRoute.js)</h2>
