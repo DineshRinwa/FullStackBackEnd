@@ -31,8 +31,8 @@
   </pre>
   
 
-  <h1>API Routes</h1> <br><br>
-  
+  <h1>API Routes</h1>
+
   <h2>User Authentication Routes (Route/registerRoute.js)</h2>
   <ul>
     <li><strong>POST /api/auth/signup</strong>: 
@@ -50,6 +50,7 @@
       </ul>
     </li>
   </ul>
+
 
   <h2>Product Management Routes (Route/productRoute.js)</h2>
   <ul>
