@@ -12,18 +12,17 @@
 <li>Secure MongoDB connection.</li>
 <li>Organized folder structure for scalability.</li>
 
-<p>
-├── Config
-│   └── db.js           # MongoDB connection configuration
-├── Middleware
-│   └── auth.js         # Authentication middleware
-├── Model
-│   ├── registerModel.js # User schema and model
-│   └── productModel.js  # Product schema and model
-├── Route
-│   ├── registerRoute.js # Registration and login routes
-│   └── productRoute.js  # Product management routes
-├── .env                 # Environment variables (e.g., PORT, MONGODB_URL, SECRET_KEY)
-├── .gitignore           # Ensures sensitive files like `.env` are not pushed to the repository
-└── index.js             # Entry point of the application  
-</p>
+<p>├── Config  </p>
+<p>|   └── db.js           # MongoDB connection configuration </p>
+<p>├── Middleware  <p></p>
+<p>│   └── auth.js         # Authentication middleware </p>
+<p>├── Model  <p></p>
+<p>│   ├── registerModel.js # User schema and model </p>
+<p>│   └── productModel.js  # Product schema and model </p>
+<p>├── Route  <p></p>
+<p>│   ├── registerRoute.js # Registration and login routes  </p>
+<p>│   └── productRoute.js  # Product management routes  </p>
+<p>├── .env                 # Environment variables (e.g., PORT, MONGODB_URL, SECRET_KEY) </p>
+<p>├── .gitignore           # Ensures sensitive files like `.env` are not pushed to the repository </p>
+<p>└── index.js             # Entry point of the application  </p>
+
