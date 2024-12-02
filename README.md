@@ -4,7 +4,7 @@
 
 <h2>Overview</h2>
 <p>This project provides a robust backend service built using Node.js, Express.js, and MongoDB. The application includes user authentication, product management, and role-based access control (Admin, Seller, Buyer). The backend exposes RESTful APIs for these functionalities.</p>
-<br>
+
 <br>
 <h2>Key Features:</h2>
 <li>User registration and authentication (JWT-based).</li>
@@ -13,7 +13,6 @@
 <li>Secure MongoDB connection.</li>
 <li>Organized folder structure for scalability.</li>
 
-<br>
 <br>
 <pre>
 ├── Config
@@ -30,9 +29,7 @@
 ├── .gitignore           # Ensures sensitive files like `.env` are not pushed to the repository
 └── index.js             # Entry point of the application
   </pre>
-
-  <br>
-  <br>
+  
 
   <h1>API Routes</h1> <br><br>
   
@@ -86,3 +83,55 @@
       </ul>
     </li>
   </ul>
+
+
+<h1>API Endpoints</h1>
+  
+  <table>
+    <thead>
+      <tr>
+        <th>Method</th>
+        <th>Endpoint</th>
+        <th>Description</th>
+        <th>Auth Role</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>POST</td>
+        <td>/api/auth/signup</td>
+        <td>Register a new user</td>
+        <td>Public</td>
+      </tr>
+      <tr>
+        <td>POST</td>
+        <td>/api/auth/login</td>
+        <td>Login and get a JWT token</td>
+        <td>Public</td>
+      </tr>
+      <tr>
+        <td>POST</td>
+        <td>/api/products</td>
+        <td>Create a product</td>
+        <td>Admin/Seller</td>
+      </tr>
+      <tr>
+        <td>GET</td>
+        <td>/api/products</td>
+        <td>Retrieve all products</td>
+        <td>Public</td>
+      </tr>
+      <tr>
+        <td>PUT</td>
+        <td>/api/products/:id</td>
+        <td>Update a product</td>
+        <td>Admin/Seller</td>
+      </tr>
+      <tr>
+        <td>DELETE</td>
+        <td>/api/products/:id</td>
+        <td>Delete a product</td>
+        <td>Admin/Seller</td>
+      </tr>
+    </tbody>
+  </table>
