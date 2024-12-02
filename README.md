@@ -26,3 +26,27 @@
 <p>├── .gitignore           # Ensures sensitive files like `.env` are not pushed to the repository </p>
 <p>└── index.js             # Entry point of the application  </p>
 
+
+A robust backend system for managing users and products with role-based access control (RBAC) using **Node.js**, **Express**, and **MongoDB**. The project includes user registration, login, authentication, product management, and error handling.
+
+## Features
+
+- **Authentication**: User registration and login with password hashing.
+- **Authorization**: Role-based access control (Admin, Seller, Buyer).
+- **Product Management**: CRUD operations on products.
+- **Error Handling**: Centralized error response system.
+- **Secure API**: JWT-based authentication.
+- **MongoDB Integration**: Mongoose for database management.
+
+---
+
+## Installation
+
+### Prerequisites
+- Node.js v14+ installed
+- MongoDB installed or an active MongoDB Atlas URI
+- A `.env` file with the following keys:
+  ```plaintext
+  PORT=<Your Port>
+  MONGODB_URL=<Your MongoDB URI>
+  SECRET_KEY=<Your JWT Secret Key>
